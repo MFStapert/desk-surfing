@@ -2,7 +2,7 @@
 	import { Icon, SwitchHorizontal, Search } from 'svelte-hero-icons';
 </script>
 
-<div class="my-auto flex flex-row items-center">
+<div class="my-auto flex flex-row items-center justify-between">
 	<div class="flex items-center w-48 cursor-pointer">
 		<Icon
 			solid

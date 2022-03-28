@@ -20,13 +20,20 @@ textarea {
 	flex flex-col;
 }
 
-.sidebar {
-	@apply fixed h-screen left-0 top-0
-	border-r border-gray-400
-	w-48 mt-20 mr-6;
+.navigation {
+	@apply fixed
+	w-screen left-0 bottom-0
+	bg-white
+	border-t border-gray-400;
+	@apply md:top-0
+	md:w-48
+	md:h-screen 
+	md:border-r 
+	md:border-t-0
+	md:mt-20 md:mr-6;
 }
 
 .main {
-	@apply mt-20 ml-48
+	@apply mt-20 md:ml-48
 	min-h-full;
 }

@@ -9,7 +9,7 @@
 	<Topbar />
 </header>
 
-<nav class="sidebar">
+<nav class="navigation">
 	<Navigation />
 </nav>
 
