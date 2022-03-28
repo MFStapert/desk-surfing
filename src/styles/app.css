@@ -1,0 +1,32 @@
+/* Write your global styles here, in PostCSS syntax */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+	@apply transition;
+}
+
+input[type='text'],
+textarea {
+	@apply bg-transparent;
+}
+
+.topbar {
+	@apply fixed w-screen top-0
+	border-b
+	border-gray-400	
+	h-20 px-6
+	flex flex-col;
+}
+
+.sidebar {
+	@apply fixed h-screen left-0 top-0
+	border-r border-gray-400
+	w-48 mt-20 mr-6;
+}
+
+.main {
+	@apply mt-20 ml-48
+	min-h-full;
+}
