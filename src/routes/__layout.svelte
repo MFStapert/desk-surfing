@@ -14,8 +14,5 @@
 </nav>
 
 <main class="main">
-	<Pageheader />
-	<div class="w-4/6 mx-auto pt-8">
-		<slot />
-	</div>
+	<slot />
 </main>

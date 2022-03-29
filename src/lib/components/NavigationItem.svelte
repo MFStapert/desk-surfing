@@ -3,8 +3,9 @@
 	export let navItem;
 </script>
 
-<span
+<a
 	class="side-nav-item active:font-normal  hover:bg-gray-100 px-6 font-semibold text-md cursor-pointer"
+	href={navItem.link}
 >
 	<Icon
 		solid
@@ -12,9 +13,8 @@
 		class="h-8 w-8 mr-4 blue-300 text-blue-500 hover:text-blue-600  "
 	/>
 	{navItem.label}
-</span>
+</a>
 
-<!-- {/each} -->
 <style>
 	.side-nav-item {
 		@apply flex items-center

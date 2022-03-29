@@ -3,9 +3,9 @@
 
 	import { Globe, Home, User } from 'svelte-hero-icons';
 	let navItems = [
-		{ label: 'Host', icon: Home },
-		{ label: 'Work', icon: Globe },
-		{ label: 'Profile', icon: User },
+		{ label: 'Host', link: 'host', icon: Home },
+		{ label: 'Work', link: 'work', icon: Globe },
+		{ label: 'Profile', link: 'profile', icon: User },
 	];
 </script>
 
