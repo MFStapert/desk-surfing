@@ -4,7 +4,7 @@
 @tailwind utilities;
 
 html {
-	@apply transition overflow-hidden;
+	@apply transition overflow-y-scroll bg-slate-100;
 }
 
 input[type='text'],
@@ -35,8 +35,8 @@ textarea {
 }
 
 .main {
-	@apply mt-20 md:ml-48
-	min-h-screen overflow-y-scroll;
+	@apply my-20 md:ml-48 min-h-fit
+	 overflow-y-hidden;
 }
 
 .container {
