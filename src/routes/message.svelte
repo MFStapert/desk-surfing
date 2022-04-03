@@ -6,19 +6,21 @@
 <Profile fullName="Jane Doe" photo="Jane" location="The Netherlands" />
 
 <Card>
-	<div class="flex flex-row-reverse p-4 font-semibold bg-green-100 border-b  border-slate-200 ">
-		I was wondering if I can work at your place?
+	<div class="p-4 bg-slate-100">
+		<span class="font-semibold mb-1"
+			>You<span class="font-normal text-gray-800 mx-2">| 23:50</span></span
+		>
+		<p>I was wondering if I can come work at your place?</p>
+		<p>Say next week tuesday from 09:00 - 17:00</p>
+		<p>I have coffee!</p>
 	</div>
-	<div class="flex flex-row-reverse p-4 font-semibold bg-green-100 border-b  border-slate-200 ">
-		Say next week tuesday from 09:00 - 17:00
-	</div>
-	<div class="flex flex-row-reverse p-4 font-semibold bg-green-100 border-b  border-slate-200 ">
-		I have coffee!
-	</div>
+	<div class="p-4">
+		<span class="font-semibold mb-1"
+			>Jane<span class="font-normal text-gray-800 mx-2">| 23:50</span></span
+		>
 
-	<div class="p-4 border-b font-semibold border-slate-200">Sure I'd be happy to host you!</div>
-	<div class="p-4 border-b font-semibold border-slate-200">
-		I got coffee, maybe bring some snacks :)?
+		<p>Sure I'd be happy to host you!</p>
+		<p>I got coffee, maybe bring some snacks :)?</p>
 	</div>
 </Card>
 

@@ -4,7 +4,7 @@
 </script>
 
 <a
-	class="flex flex-col md:flex-row md:justify-start justify-center grow side-nav-item md:py-3 md:px-6 active:font-normal items-center hover:bg-gray-100 font-semibold text-md cursor-pointer"
+	class="flex flex-col md:flex-row md:justify-start justify-center grow side-nav-item md:py-3 md:px-6 items-center hover:bg-gray-100 font-semibold text-md cursor-pointer"
 	href={navItem.link}
 >
 	<Icon
