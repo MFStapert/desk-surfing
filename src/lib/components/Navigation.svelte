@@ -9,7 +9,7 @@
 	];
 </script>
 
-<nav class="flex flex-row justify-center md:flex-col my-4">
+<nav class="flex flex-row justify-around md:justify-center md:flex-col my-4">
 	{#each navItems as navItem}
 		<NavigationItem {navItem} />
 	{/each}

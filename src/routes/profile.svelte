@@ -1,39 +1,32 @@
 <script lang="ts">
 	import Card from '$lib/components/Card.svelte';
+	import Profile from '$lib/components/Profile.svelte';
 
 	import { Icon, Annotation, Briefcase, Chat, Clock } from 'svelte-hero-icons';
 </script>
 
-<div class="flex">
-	<div class="flex flex-col min-w-fit min-h-screen m-2 p-4 rounded bg-white items-center space-x-4">
-		<img
-			src="Jane.jpg"
-			alt=""
-			class="flex-none w-32 h-32 rounded-full object-cover"
-			loading="lazy"
-		/>
-
-		<h2 class="text-2xl font-semibold">Jane Doe</h2>
-		<span class="text-blue-500 mt-0.5">Kaapstad, Zuid Afrika</span>
-	</div>
-
-	<div class="flex flex-col grow">
-		<div class="p-4 m-2 rounded bg-white">
-			<div class="flex flex-col md:flex-row justify-between">
+<div class="flex flex-col md:flex-row">
+	<Profile fullName="Jane Doe" photo="Jane" location="The Netherlands" />
+	<div>
+		<Card>
+			<div class="flex flex-col md:items-baseline md:flex-row md:justify-between">
 				<h2 class="text-2xl font-semibold text-green-500 mb-4">Has a place to work</h2>
-				<div>
+				<div class="flex flex-col md:block">
 					<a
 						href="/reference"
-						class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mr-2"
+						class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded md:mr-2 mb-2"
 					>
 						Reference
 					</a>
-					<a href="/" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+					<a
+						href="/message"
+						class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+					>
 						Message
 					</a>
 				</div>
-			</div>
-		</div>
+			</div></Card
+		>
 
 		<Card title="Overview:">
 			<div class="grid grid-cols-1 md:grid-cols-2">

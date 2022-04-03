@@ -25,7 +25,7 @@
 <Card title="Results:">
 	{#each ['Janet', 'Jane', 'Jacky', 'Joe'] as name}
 		<a href="profile">
-			<div class="flex flex-row p-4 border-b border-slate-200">
+			<div class="flex flex-col md:flex-row p-4 border-b border-slate-200 hover:bg-gray-200">
 				<img
 					src="{name}.jpg"
 					alt=""
@@ -33,16 +33,16 @@
 					loading="lazy"
 				/>
 				<div class="flex flex-col w-full">
-					<div class="flex items-baseline pb-1 border-b border-slate-200">
+					<div class="flex items-baseline pb-1">
 						<h2 class="text-2xl font-semibold mr-2">{name} Doe</h2>
-						<span class="text-gray-600 mt-0.5">Kaapstad, Zuid Afrika</span>
+						<span class="text-gray-700 mt-0.5">Kaapstad, Zuid Afrika</span>
 					</div>
-					<div class="flex pb-1 border-b border-slate-200">
+					<div class="flex pb-1">
 						<span class="font-semibold text-blue-500"> 14 References </span>
-						<span class="mx-2 font-semibold text-gray-600"> | </span>
-						<span class="font-semibold text-gray-600"> Software engineer </span>
-						<span class="mx-2 font-semibold text-gray-600"> | </span>
-						<span class="font-semibold text-gray-600"> Dutch </span>
+						<span class="mx-2 font-semibold text-gray-700"> | </span>
+						<span class="font-semibold text-gray-700"> Software engineer </span>
+						<span class="mx-2 font-semibold text-gray-700"> | </span>
+						<span class="font-semibold text-gray-700"> Dutch </span>
 					</div>
 					<span>
 						I'm hosting people from monday to tuesday, consectetur adipiscing elit. Morbi in mauris

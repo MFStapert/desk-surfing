@@ -4,21 +4,21 @@
 </script>
 
 <a
-	class="side-nav-item active:font-normal  hover:bg-gray-100 px-6 font-semibold text-md cursor-pointer"
+	class="side-nav-item md:py-3 md:px-6 active:font-normal items-center hover:bg-gray-100 font-semibold text-md cursor-pointer"
 	href={navItem.link}
 >
 	<Icon
 		solid
 		src={navItem.icon}
-		class="h-8 w-8 mr-4 blue-300 text-blue-500 hover:text-blue-600  "
+		class="hidden md:block md:mr-4 w-8 blue-300 text-blue-500 hover:text-blue-600  "
 	/>
 	{navItem.label}
 </a>
 
 <style>
 	.side-nav-item {
-		@apply flex items-center
-		text-sm py-3 px-8 rounded
+		@apply flex 
+		text-sm rounded
 		transition duration-300 ease-in-out;
 	}
 </style>
