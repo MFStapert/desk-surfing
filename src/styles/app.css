@@ -42,3 +42,17 @@ textarea {
 .container {
 	@apply w-4/6 mx-auto pt-8 min-h-full;
 }
+
+input,
+select,
+textarea {
+	@apply w-full
+	p-2
+			text-base
+			font-normal
+			text-gray-700
+			bg-white
+			border border-solid border-gray-300
+			rounded-md
+			focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none;
+}

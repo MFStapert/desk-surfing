@@ -14,6 +14,6 @@
 
 	<div class="flex align-baseline self-center p-1 border rounded-md border-gray-400">
 		<Icon solid src={Search} class="h-6  w-6 mr-2  text-gray-400" />
-		<input class="outline-none" placeholder="search" />
+		<input class="border-none p-0 outline-none" placeholder="search" />
 	</div>
 </div>
