@@ -1,11 +1,11 @@
 <script lang="ts">
 	import Card from '$lib/components/Card.svelte';
 	import Profile from '$lib/components/Profile.svelte';
-
-	import { Icon, Annotation, Briefcase, Chat, Clock } from 'svelte-hero-icons';
 </script>
 
-<Card title="Jane Doe">
+<Profile fullName="Jane Doe" photo="Jane" location="The Netherlands" />
+
+<Card>
 	<div class="flex flex-row-reverse p-4 font-semibold bg-green-100 border-b  border-slate-200 ">
 		I was wondering if I can work at your place?
 	</div>
@@ -22,7 +22,7 @@
 	</div>
 </Card>
 
-<Card title="Chat:">
+<Card title="Chat">
 	<textarea rows="2" placeholder="Type your message here" />
 	<button
 		slot="controls"

@@ -1,29 +1,29 @@
 <script lang="ts">
 	import Card from '$lib/components/Card.svelte';
+	import InputWrapper from '$lib/components/InputWrapper.svelte';
 	import { Icon, Annotation, Briefcase, Chat, Clock } from 'svelte-hero-icons';
 </script>
 
-<Card title="Host an office:">
-	<span class="block mb-2 text-gray-700">Days available:</span>
-	<select class="mb-4">
-		<option>Monday</option>
-		<option>Tuesday</option>
-		<option>Wednesday</option>
-		<option>Thursday</option>
-		<option>Friday</option>
-		<option>Saturday</option>
-		<option>Sunday</option>
-	</select>
+<Card title="Host an place to work">
+	<InputWrapper title="Days available">
+		<select class="mb-4">
+			<option>Monday</option>
+			<option>Tuesday</option>
+			<option>Wednesday</option>
+			<option>Thursday</option>
+			<option>Friday</option>
+			<option>Saturday</option>
+			<option>Sunday</option>
+		</select>
+	</InputWrapper>
 
-	<span class="block mb-2 text-gray-700">Description:</span>
-	<textarea
-		class=" mb-4"
-		rows="6"
-		placeholder="Tell something about yourself and your office space"
-	/>
+	<InputWrapper title="Description">
+		<textarea rows="6" placeholder="Tell something about  your office space" />
+	</InputWrapper>
 
-	<span for="formFile" class="block mb-2 text-gray-700">Upload pictures of your office</span>
-	<input type="file" id="formFile" />
+	<InputWrapper title="Upload pictures of your office">
+		<input type="file" id="formFile" />
+	</InputWrapper>
 
 	<button
 		slot="controls"

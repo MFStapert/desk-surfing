@@ -10,7 +10,7 @@
 	<div>
 		<Card>
 			<div class="flex flex-col md:items-baseline md:flex-row md:justify-between">
-				<h2 class="text-2xl font-semibold text-green-500 mb-4">Has a place to work</h2>
+				<h2 class="text-2xl font-semibold text-green-500 mb-4 md:mb-0">Is hosting</h2>
 				<div class="flex flex-col md:block">
 					<a
 						href="/reference"
@@ -25,10 +25,10 @@
 						Message
 					</a>
 				</div>
-			</div></Card
-		>
+			</div>
+		</Card>
 
-		<Card title="Overview:">
+		<Card title="Overview">
 			<div class="grid grid-cols-1 md:grid-cols-2">
 				<div class="flex mb-6">
 					<Icon solid src={Annotation} class="h-6 w-6 mr-2 blue-300 text-blue-500 " />
@@ -49,7 +49,7 @@
 			</div>
 		</Card>
 
-		<Card title="About:">
+		<Card title="About">
 			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in mauris sed nisl interdum
 			pellentesque at ac arcu. Morbi pretium quis arcu eget luctus. Suspendisse aliquam, leo at
 			malesuada feugiat, nunc lorem bibendum ante, a posuere quam urna a neque. Integer vel eros

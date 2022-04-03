@@ -4,8 +4,10 @@
 	import { Icon, Search, Annotation, Briefcase, Chat, Clock } from 'svelte-hero-icons';
 </script>
 
-<Card title="Find a place to work:">
-	<div class="flex align-baseline self-center p-2 mb-4 border rounded-md border-gray-400">
+<Card title="Find a place to work">
+	<div
+		class="flex align-baseline self-center p-2 mb-4 border rounded-md border-gray-400 hover:border-black"
+	>
 		<Icon solid src={Search} class="h-6  w-6 mr-2  text-gray-400" />
 		<input class="border-none p-0 outline-none" placeholder="search by location" />
 	</div>
@@ -20,9 +22,16 @@
 			<input type="date" />
 		</div>
 	</div>
+
+	<button
+		slot="controls"
+		class=" bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+	>
+		Search
+	</button>
 </Card>
 
-<Card title="Results:">
+<Card title="Results">
 	{#each ['Janet', 'Jane', 'Jacky', 'Joe'] as name}
 		<a href="profile">
 			<div class="flex flex-col md:flex-row p-4 border-b border-slate-200 hover:bg-gray-200">
@@ -33,16 +42,16 @@
 					loading="lazy"
 				/>
 				<div class="flex flex-col w-full">
-					<div class="flex items-baseline pb-1">
+					<div class="flex items-baseline ">
 						<h2 class="text-2xl font-semibold mr-2">{name} Doe</h2>
-						<span class="text-gray-700 mt-0.5">Kaapstad, Zuid Afrika</span>
+						<span class="text-gray-700 mt-0.5">Someplace, Somewhere</span>
 					</div>
 					<div class="flex pb-1">
-						<span class="font-semibold text-blue-500"> 14 References </span>
+						<span class="font-semibold text-blue-500"> XX References </span>
 						<span class="mx-2 font-semibold text-gray-700"> | </span>
-						<span class="font-semibold text-gray-700"> Software engineer </span>
+						<span class="font-semibold text-gray-700"> Job </span>
 						<span class="mx-2 font-semibold text-gray-700"> | </span>
-						<span class="font-semibold text-gray-700"> Dutch </span>
+						<span class="font-semibold text-gray-700"> Languages </span>
 					</div>
 					<span>
 						I'm hosting people from monday to tuesday, consectetur adipiscing elit. Morbi in mauris
