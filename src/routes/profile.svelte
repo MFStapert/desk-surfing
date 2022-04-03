@@ -20,9 +20,12 @@
 			<div class="flex flex-col md:flex-row justify-between">
 				<h2 class="text-2xl font-semibold text-green-500 mb-4">Has a place to work</h2>
 				<div>
-					<button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mr-2">
+					<a
+						href="/reference"
+						class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mr-2"
+					>
 						Reference
-					</button>
+					</a>
 					<button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
 						Message
 					</button>
