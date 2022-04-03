@@ -5,7 +5,7 @@
 	let navItems = [
 		{ label: 'Host', link: 'host', icon: Home },
 		{ label: 'Work', link: 'work', icon: Globe },
-		{ label: 'Profile', link: 'profile', icon: User },
+		{ label: 'Profile', link: 'your-profile', icon: User },
 	];
 </script>
 

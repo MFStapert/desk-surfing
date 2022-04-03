@@ -1,5 +1,5 @@
 <script>
-	import { Icon, SwitchHorizontal, Search } from 'svelte-hero-icons';
+	import { Icon, SwitchHorizontal } from 'svelte-hero-icons';
 </script>
 
 <div class="my-auto flex flex-row items-center justify-between ">
@@ -11,9 +11,4 @@
 		/>
 		<span class="font-semibold text-blue-500 hover:text-blue-600">Desksurfing</span>
 	</a>
-
-	<div class="flex align-baseline self-center p-1 border rounded-md border-gray-400">
-		<Icon solid src={Search} class="h-6  w-6 mr-2  text-gray-400" />
-		<input class="border-none p-0 outline-none" placeholder="search" />
-	</div>
 </div>

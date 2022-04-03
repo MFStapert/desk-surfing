@@ -2,7 +2,7 @@
 	export let title;
 </script>
 
-<div class="h-min w-full m-2 rounded bg-white">
+<div class="h-min m-2 rounded bg-white">
 	<div class="p-4 border-b-2 border-slate-50">
 		<h2 class="text-2xl font-semibold">{title}</h2>
 	</div>

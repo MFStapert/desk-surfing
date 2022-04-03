@@ -7,43 +7,26 @@
 <div class="flex">
 	<div class="flex flex-col min-w-fit min-h-screen m-2 p-4 rounded bg-white items-center space-x-4">
 		<img
-			src="Jane.jpg"
+			src="profile.png"
 			alt=""
 			class="flex-none w-32 h-32 rounded-full object-cover"
 			loading="lazy"
 		/>
 
-		<h2 class="text-2xl font-semibold">Jane Doe</h2>
-		<span class="text-blue-500 mt-0.5">Kaapstad, Zuid Afrika</span>
+		<h2 class="text-2xl font-semibold">Your Profile</h2>
+		<span class="text-blue-500 mt-0.5">Berlin, Germany</span>
 	</div>
 
 	<div class="flex flex-col grow">
-		<div class="p-4 m-2 rounded bg-white">
-			<div class="flex flex-col md:flex-row justify-between">
-				<h2 class="text-2xl font-semibold text-green-500 mb-4">Has a place to work</h2>
-				<div>
-					<a
-						href="/reference"
-						class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mr-2"
-					>
-						Reference
-					</a>
-					<a href="/" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-						Message
-					</a>
-				</div>
-			</div>
-		</div>
-
 		<Card title="Overview:">
 			<div class="grid grid-cols-1 md:grid-cols-2">
 				<div class="flex mb-6">
 					<Icon solid src={Annotation} class="h-6 w-6 mr-2 blue-300 text-blue-500 " />
-					<span class="font-semibold text-blue-500"> 14 References </span>
+					<span class="font-semibold text-blue-500"> 0 References </span>
 				</div>
 				<div class="flex mb-6">
 					<Icon solid src={Briefcase} class="h-6 w-6 mr-2 blue-300 text-gray-600" />
-					<span class="font-semibold text-gray-600"> Software engineer </span>
+					<span class="font-semibold text-gray-600"> Marketeer </span>
 				</div>
 				<div class="flex mb-6">
 					<Icon solid src={Chat} class="h-6 w-6 mr-2 blue-300 text-gray-600 " />
@@ -51,7 +34,7 @@
 				</div>
 				<div class="flex mb-6">
 					<Icon solid src={Clock} class="h-6 w-6 mr-2 blue-300 text-gray-600 " />
-					<span class="font-semibold text-gray-600"> 20 years old </span>
+					<span class="font-semibold text-gray-600"> 30 years old </span>
 				</div>
 			</div>
 		</Card>
