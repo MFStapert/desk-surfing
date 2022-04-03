@@ -1,0 +1,17 @@
+{
+	"short_name": "desksurfing",
+	"name": "desksurfing",
+	"background_color": "#3B82F6",
+	"display": "minimal-ui",
+	"start_url": "/",
+	"scope": "/",
+	"theme_color": "#3B82F6",
+	"description": "Find a desk to surf to!",
+	"icons": [
+		{
+			"src": "icon.png",
+			"type": "image/png",
+			"sizes": "255x255"
+		}
+	]
+}
