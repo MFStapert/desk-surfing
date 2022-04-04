@@ -4,7 +4,7 @@
 	export let location;
 </script>
 
-<div class="flex flex-col min-w-fit m-2 p-4 rounded bg-white items-center space-x-4">
+<div class="flex flex-col min-w-fit m-2 p-4 rounded bg-white items-center space-x-4 shadow-md">
 	<img
 		src="{photo}.jpg"
 		alt=""

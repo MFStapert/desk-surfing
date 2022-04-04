@@ -23,7 +23,7 @@
 			<div class="grid grid-cols-1 md:grid-cols-2">
 				<div class="flex mb-6">
 					<Icon solid src={Annotation} class="h-6 w-6 mr-2 blue-300 text-blue-500 " />
-					<span class="font-semibold text-blue-500"> 0 References </span>
+					<a href="reference-view" class="font-semibold text-blue-500 hover:underline"> 0 References </a>
 				</div>
 				<div class="flex mb-6">
 					<Icon solid src={Briefcase} class="h-6 w-6 mr-2 blue-300 text-gray-600" />

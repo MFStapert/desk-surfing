@@ -46,11 +46,11 @@
 						<h2 class="text-2xl font-semibold mr-2">{name} Doe</h2>
 						<span class="text-gray-700 mt-0.5">Someplace, Somewhere</span>
 					</div>
-					<div class="flex pb-1">
+					<div class="flex pb-1 flex-col md:flex-row">
 						<span class="font-semibold text-blue-500"> XX References </span>
-						<span class="mx-2 font-semibold text-gray-700"> | </span>
+						<span class="mx-2 font-semibold text-gray-700 hidden md:block"> | </span>
 						<span class="font-semibold text-gray-700"> Job </span>
-						<span class="mx-2 font-semibold text-gray-700"> | </span>
+						<span class="mx-2 font-semibold text-gray-700 hidden md:block" > | </span>
 						<span class="font-semibold text-gray-700"> Languages </span>
 					</div>
 					<span>

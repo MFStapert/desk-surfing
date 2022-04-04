@@ -2,7 +2,7 @@
 	export let title = null;
 </script>
 
-<div class="h-min min-w-fit m-2 rounded bg-white">
+<div class="h-min min-w-fit m-2 rounded bg-white shadow-sm">
 	{#if title}
 		<div class="p-4 border-b-2 border-slate-50">
 			<h2 class="text-2xl font-semibold">{title}</h2>
